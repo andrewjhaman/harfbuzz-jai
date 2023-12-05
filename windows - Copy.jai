@@ -3899,6 +3899,7 @@ hb_version_atleast :: (major: u32, minor: u32, micro: u32) -> hb_bool_t #foreign
 
 #import "Basic"; // For assert
 
+harfbuzz :: #library "win/harfbuzz";
 
 #run {
     {
